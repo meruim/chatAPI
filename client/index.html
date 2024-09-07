@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+    <link rel="icon" href="assets\Logo.ico" />
+  </head>
+
+  <body>
+    <div class="header">
+      <img src="assets\Logo.png" alt="Logo" class="img" />
+
+      <h1>Simple Chatbot</h1>
+    </div>
+
+    <!-- Show the chatbox UI -->
+    <div id="chat-box">
+      <div id="chat-log"></div>
+    </div>
+    <!-- Assuming the message has been inputted, the sendMessage function is responsible of the capturing the user inputed and return an answer accordingly -->
+    <div id="message-container">
+      <input type="text" id="message" placeholder="Type your message here" />
+      <button onclick="sendMessage()" id="sendButton">Send</button>
+    </div>
+    <!-- Where the javascript located -->
+    <script src="assets/index.js"></script>
+  </body>
+</html>

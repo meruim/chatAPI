@@ -1,0 +1,82 @@
+body {
+    background-image: url("BackgroundVio.png");
+    /* Light grey background */
+    background-size: cover;
+    /* Cover the entire background */
+    background-position: center;
+    /* Center the background image */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 5%;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke
+    /* Dark grey text color */
+}
+
+#chat-box {
+    background-color: #fff;
+    /* White background for chat box */
+    border: 1px solid #ccc;
+    /* Grey border */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+    height: 250px;
+    max-width: 600px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Shadow effect */
+}
+
+#chat-log {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+#message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#message {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+#sendButton {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#sendButton:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    /* Adjust as needed */
+}
+
+.header img {
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+    /* Adjust as needed */
+}
