@@ -5,7 +5,7 @@ const Groq = require("groq-sdk");
 const conversations = {};
 
 router.post("/", async (req, res) => {
-  const message = req.body.message ? req.body.message.toLowerCase() : null;
+  const message = req.query.message ? req.body.query.toLowerCase() : null;
   const userId = global.utils.generateRandomUserId;
 
   if (!message) {
